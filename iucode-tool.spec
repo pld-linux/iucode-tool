@@ -1,8 +1,8 @@
 Summary:	A program to manipulate Intel microcode update collections
 Name:		iucode-tool
 Version:	2.2
-Release:	0
-License:	GPL-2.0
+Release:	1
+License:	GPL v2+
 Group:		Base
 URL:		https://gitlab.com/iucode-tool/iucode-tool
 Source0:	http://http.debian.net/debian/pool/contrib/i/iucode-tool/%{name}_%{version}.orig.tar.xz
@@ -32,6 +32,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING README
+%doc AUTHORS CONTRIBUTING ChangeLog NEWS README TODO
 %attr(755,root,root) %{_sbindir}/iucode_tool
 %{_mandir}/man8/iucode_tool.8*
