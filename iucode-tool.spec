@@ -1,13 +1,13 @@
 Summary:	A program to manipulate Intel microcode update collections
 Name:		iucode-tool
-Version:	2.2
+Version:	2.3.1
 Release:	1
 License:	GPL v2+
 Group:		Base
 URL:		https://gitlab.com/iucode-tool/iucode-tool
 Source0:	http://http.debian.net/debian/pool/contrib/i/iucode-tool/%{name}_%{version}.orig.tar.xz
-# Source0-md5:	f6cc22c89b66e4f1ff87af36197cdfaa
-ExclusiveArch:	%{ix86} x86_64
+# Source0-md5:	63b33cc0ea1f8c73b443412abbf39d6f
+ExclusiveArch:	%{ix86} %{x8664} x32
 
 %description
 iucode_tool is a program to manipulate microcode update collections
