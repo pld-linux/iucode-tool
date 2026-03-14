@@ -2,7 +2,7 @@ Summary:	A program to manipulate Intel microcode update collections
 Summary(pl.UTF-8):	Program do operowania na zbiorach uaktualnień mikrokodu Intela
 Name:		iucode-tool
 Version:	2.3.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Base
 Source0:	http://http.debian.net/debian/pool/contrib/i/iucode-tool/%{name}_%{version}.orig.tar.xz
